@@ -1,13 +1,18 @@
 
 #include "HelloWorld.h"
 
+//**********************************************************************************************************************
+//option will contain the parameter string from your command 
+//for example: yourcommand(parameter1=value1, parameter2=value2)
+//option = "parameter1=value1, parameter2=value2"
+
 HelloWorldCommand::HelloWorldCommand(string option){  
 	try {
 
 
 	}
 	catch(exception& e) {
-		m->errorOut(e, "HelloWorld", "HelloWorld");
+//		errorOut(e, "HelloWorld", "HelloWorld");
 		exit(1);
 	}
 }
